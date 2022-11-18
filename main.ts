@@ -1,3 +1,6 @@
+/**
+ * Hinderniserkennung
+ */
 function HindernisVermeidung () {
     if (JoyCar.obstacleavoidance(SensorLRSelection.Left) && JoyCar.obstacleavoidance(SensorLRSelection.Right)) {
         JoyCar.stop(StopIntensity.Intense)
